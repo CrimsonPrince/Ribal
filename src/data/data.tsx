@@ -1,3 +1,4 @@
+import FacebookIcon from '../components/Icon/FacebookIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -28,7 +29,6 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
-import FacebookIcon from '../components/Icon/FacebookIcon';
 
 /**
  * Page meta data
@@ -63,7 +63,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      High quality gardening services at affordable prices. From lawn maintenance and hedge trimming to power washing, foliage removal and landscaping, Ribal takes pride in delivering on excellence.
+        High quality gardening services at affordable prices. From lawn maintenance and hedge trimming to power washing,
+        foliage removal and landscaping, Ribal takes pride in delivering on excellence.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">ribalgardening@gmail.com</strong>.
