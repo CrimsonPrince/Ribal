@@ -1,12 +1,3 @@
-import {
-  AcademicCapIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
-
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -16,6 +7,13 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import profilepic from '../images/profilepic.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -30,6 +28,7 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import FacebookIcon from '../components/Icon/FacebookIcon';
 
 /**
  * Page meta data
@@ -64,14 +63,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      High quality gardening services at affordable prices. From lawn maintenance and hedge trimming to power washing, foliage removal and landscaping, Ribal takes pride in delivering on excellence.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        <strong className="text-stone-100">ribalgardening@gmail.com</strong>.
       </p>
     </>
   ),
@@ -89,16 +84,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Let us transform your garden into something to be proud of via:`,
   aboutItems: [
-    {label: 'Lawn Mowing', text: '', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Lawn Maintenance', text: '', Icon: 'fa-regular'},
+    {label: 'Ivy Clearance', text: '', Icon: 'fa'},
+    {label: 'Power Washing', text: '', Icon: 'fa'},
+    {label: 'Foliage Removal', text: '', Icon: 'fa'},
+    {label: 'Weeding', text: '', Icon: 'fa'},
+    {label: 'Hedge Trimming', text: '', Icon: 'fa'},
+    {label: 'Landscaping', text: '', Icon: 'fa'},
+    {label: 'Planting', text: '', Icon: 'fa'},
   ],
 };
 
@@ -181,34 +176,76 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'Sutton',
+    description: 'Before',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
+    title: 'Sutton',
+    description: 'After',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
+    title: 'Sandymount',
+    description: 'Before',
     url: 'https://reactresume.com',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    title: 'Sandymount',
+    description: 'After',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
+    title: 'Irishtown',
+    description: 'After',
     url: 'https://reactresume.com',
     image: porfolioImage5,
+  },
+  {
+    title: 'Clonskeagh',
+    description: 'After ',
+    url: 'https://reactresume.com',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Ballsbridge',
+    description: 'Before',
+    url: 'https://reactresume.com',
+    image: porfolioImage11,
+  },
+  {
+    title: 'Ballsbridge',
+    description: 'Before',
+    url: 'https://reactresume.com',
+    image: porfolioImage8,
+  },
+  {
+    title: 'Ballsbridge',
+    description: 'Before',
+    url: 'https://reactresume.com',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Ballsbridge',
+    description: 'After',
+    url: 'https://reactresume.com',
+    image: porfolioImage7,
+  },
+  {
+    title: 'Ballsbridge',
+    description: 'After',
+    url: 'https://reactresume.com',
+    image: porfolioImage10,
+  },
+  {
+    title: 'Ballsbridge',
+    description: 'After',
+    url: 'https://reactresume.com',
+    image: porfolioImage12,
   },
 ];
 
@@ -262,19 +299,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: '',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Maurice',
+      text: 'David was great at keeping in touch when organising the work needed for my garden. He arrived on time and left the place spotless once finished. Highly recommend - March 2023',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+    {
+      name: 'Arthur',
+      text: 'Great to find a gardener we can trust – goes above and beyond. - August 2023',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg',
+    },
+    {
+      name: 'Anna',
+      text: 'We got David’s name from a neighbour and are glad we did. Our garden turned out better than we imagined thanks to his hard work. We’ll be using him again. Thanks again David. - July 2023',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/220.jpg',
     },
   ],
 };
@@ -309,7 +346,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ribal-gardening-services-803a3b289'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://instagram.com/ribalgardening'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/RibalGardening'},
+  {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/ribal.gardening.services'},
 ];

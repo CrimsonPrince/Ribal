@@ -17,6 +17,7 @@ const Home: FC = memo(() => {
   const {title, description} = homePageMeta;
   return (
     <Page description={description} title={title}>
+      <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet"></link>
       <Header />
       <Hero />
       <About />
