@@ -25,8 +25,8 @@ const About: FC = memo(() => {
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {aboutItems.map(({label, text, Icon}, idx) => (
               <li className="col-span-1 flex  items-start gap-x-2" key={idx}>
-                <i className={Icon}></i>
-                <span className="text-sm font-bold text-white">{label}:</span>
+                <Image width={20} height={20} alt="about-me-image" src={Icon} />
+                <span className="text-sm font-bold text-white align-text-top">{label}:</span>
                 <span className=" text-sm text-gray-300">{text}</span>
               </li>
             ))}
