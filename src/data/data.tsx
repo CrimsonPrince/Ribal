@@ -87,14 +87,14 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Let us transform your garden into something to be proud of via:`,
   aboutItems: [
-    {label: 'Lawn Maintenance', text: '', Icon: 'fa-regular'},
-    {label: 'Ivy Clearance', text: '', Icon: 'fa'},
-    {label: 'Power Washing', text: '', Icon: 'fa'},
-    {label: 'Foliage Removal', text: '', Icon: 'fa'},
-    {label: 'Weeding', text: '', Icon: 'fa'},
-    {label: 'Hedge Trimming', text: '', Icon: 'fa'},
-    {label: 'Landscaping', text: '', Icon: 'fa'},
-    {label: 'Planting', text: '', Icon: 'fa'},
+    {label: 'Lawn Maintenance', text: '', Icon: '/lawnmower.png'},
+    {label: 'Ivy Clearance', text: '', Icon: '/ivy.png'},
+    {label: 'Power Washing', text: '', Icon: '/hose.png'},
+    {label: 'Foliage Removal', text: '', Icon: '/trash-2.svg'},
+    {label: 'Weeding', text: '', Icon: '/spray.png'},
+    {label: 'Hedge Trimming', text: '', Icon: '/trimming.png'},
+    {label: 'Landscaping', text: '', Icon: '/shovel.png'},
+    {label: 'Planting', text: '', Icon: '/tree.png'},
   ],
 };
 
