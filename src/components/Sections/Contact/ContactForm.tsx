@@ -33,7 +33,7 @@ const ContactForm: FC = memo(() => {
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" action="https://api.web3forms.com/submit" method="POST">
+    <form action="https://api.web3forms.com/submit" className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST">
       <input type="hidden" name="access_key" value=" 11563072-b1e7-4ca2-b5ee-b0b90071ee4c"></input>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
