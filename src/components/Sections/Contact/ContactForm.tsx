@@ -34,7 +34,7 @@ const ContactForm: FC = memo(() => {
 
   return (
     <form action="https://api.web3forms.com/submit" className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST">
-      <input name="access_key" type="hidden" value="11563072-b1e7-4ca2-b5ee-b0b90071ee4c"></input>
+      <input name="access_key" type="hidden" value="508db391-dea5-4ecc-8aa2-77dab81eb274"></input>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
         autoComplete="email"
