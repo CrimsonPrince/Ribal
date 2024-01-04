@@ -348,7 +348,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ribal-gardening-services-803a3b289'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://instagram.com/ribalgardening'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://instagram.com/yellowbucketgardening'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/RibalGardening'},
   {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/ribal.gardening.services'},
 ];
