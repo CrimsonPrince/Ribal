@@ -67,7 +67,7 @@ export const heroData: Hero = {
         foliage removal and landscaping, Yellow Bucket takes pride in delivering on excellence.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">ribalgardening@gmail.com</strong>.
+        <strong className="text-stone-100">yellowbucketgardening@gmail.com</strong>.
       </p>
     </>
   ),
@@ -327,8 +327,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'ribalgardening@gmail.com',
-      href: 'mailto:ribalgardening@gmail.com',
+      text: 'yellowbucketgardening@gmail.com',
+      href: 'mailto:yellowbucketgardening@gmail.com',
     },
     {
       type: ContactType.Location,
