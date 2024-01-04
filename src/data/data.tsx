@@ -34,8 +34,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ribal Gardening',
-  description: "Ribal Gardening Services",
+  title: 'Yellow Bucket',
+  description: "Yellow Bucket Gardening Services",
 };
 
 /**
@@ -59,12 +59,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Ribal Gardening`,
+  name: `Yellow Bucket`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         High quality gardening services at affordable prices. From lawn maintenance and hedge trimming to power washing,
-        foliage removal and landscaping, Ribal takes pride in delivering on excellence.
+        foliage removal and landscaping, Yellow Bucket takes pride in delivering on excellence.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">ribalgardening@gmail.com</strong>.
