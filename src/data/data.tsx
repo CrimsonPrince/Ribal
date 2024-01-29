@@ -337,7 +337,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@ribal',
+      text: '@yellowbucketgardening',
       href: 'https://www.instagram.com/',
     },
   ],
